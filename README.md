@@ -91,7 +91,7 @@ Use the Random Forest model(AUC 0.790), which had slightly higher precision, and
 _Final Recommendations_
 
 
--Resource Allocation
+- Resource Allocation
 
 
 Build loyalty programs or personalized offers for the small but highly converting base of previous successful clients.
@@ -100,7 +100,7 @@ Focus on students, retirees, and past successful clients
 
 Deprioritize blue-collar/service segments and May–July efforts
 
--Campaign Timing
+- Campaign Timing
 
 
 Schedule 25–30% of calls on Thursdays
