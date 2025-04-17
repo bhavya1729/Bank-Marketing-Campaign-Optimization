@@ -1,5 +1,5 @@
 # Bank-Marketing-Performance-Analysis: Data-Driven Insights to Optimize Term Deposit Conversions
-Project Goal
+🎯 Project Goal
 The goal of this project is to investigate the performance of a bank’s term deposit marketing campaigns in order to surface actionable recommendations for resource allocation and improved conversion rates. The analysis focuses on four key areas:
 
 Customer segmentation (identifying high- and low-converting groups)
@@ -10,90 +10,168 @@ Economic drivers (e.g., interest rates, employment volatility)
 
 Model performance (predictive accuracy and practical limitations)
 
-Insights Summary
-Overall Conversion Patterns
+🗂️ Dataset Structure
+The dataset consisted of client and campaign-level data, including:
 
-High Retention, Poor Acquisition: Past successful clients converted at a high rate (65%), but this group only comprises 3% of the audience. Meanwhile, new leads and previously failed contacts had high rejection rates of 91% and 86%, dragging the overall conversion rate down to 11%.
+Client Demographics: Age, job type, marital status, education level
 
-Recommendation: Retain and nurture existing loyal clients while refining the targeting strategy for new prospects using predictive modeling or segmentation.
+Campaign Details: Contact method, call duration, previous campaign outcomes
 
-Occupation-Based Conversion Rates
+Economic Indicators: Euribor 3-month interest rates, employment variation rates, consumer confidence
 
-Students (31.4%) and Retirees (25.2%) showed significantly above-average conversion, suggesting strong alignment with term deposit goals like savings and retirement planning.
+Target Variable: Whether the client subscribed to a term deposit (yes/no)
 
-Recommendation: Prioritize outreach to Students and Retirees by tailoring content and allocating more resources toward these high-converting groups.
+📌 Insights Summary
+1️⃣ Overall Conversion Patterns
+High Retention, Poor Acquisition:
 
-Management (11.2%) and Technicians (10.8%) underperformed despite likely income stability.
+Past successful clients had a 65% conversion rate but comprised only 3% of the dataset
 
-Recommendation: Redesign messaging for these groups, perhaps by addressing risk concerns, liquidity, or long-term benefits.
+New leads and failed contacts had rejection rates of 91% and 86%, dragging the overall rate to 11%
 
-Blue-Collar (6.9%) and Services (8.1%) segments had the lowest conversions.
+🔧 Recommendation:
+Retain loyal clients while refining new lead targeting with predictive modeling or segmentation.
 
-Recommendation: Consider reducing marketing investment in these groups due to consistently poor returns.
+2️⃣ Occupation-Based Conversion Rates
+Top Performers:
 
-Age-Based Conversion Trends
+Students: 31.4%
 
-A U-shaped pattern was observed: clients under 30 and over 50 had strong conversion rates (~15.2% and ~15.1%, respectively), likely driven by savings and retirement goals. In contrast, the 30–50 age group underperformed at 9.1%.
+Retirees: 25.2%
 
-Recommendation: Maintain strong campaigns for youth and seniors. Introduce flexible or hybrid offerings for the 30–50 age group to address financial pressures.
+Underperformers:
 
-Day-of-Week Performance
+Blue-Collar: 6.9%
 
-Thursday (12.1%), Tuesday (11.8%), and Wednesday (11.6%) had the highest conversion rates.
+Service Workers: 8.1%
 
-Recommendation: Allocate 25–30% of weekly calls to Thursdays and schedule follow-ups mid-week. Reduce outreach volume on Mondays (9.9%), which showed lower performance.
+Management: 11.2%
 
-Seasonal Trends
+Technicians: 10.8%
 
-March had an exceptional 50.5% conversion rate, with September to December also maintaining strong performance, likely due to year-end financial planning.
+🔧 Recommendations:
 
-May and July had the weakest results (below 10%), likely due to summer holidays.
+Prioritize students and retirees with tailored content
 
-Recommendation: Concentrate 60–70% of annual outreach during high-performing months (March and Sept–Dec). Reduce investment during low-conversion months.
+Redesign messaging for professionals to address concerns
 
-Economic Factors
+Deprioritize blue-collar and service groups
 
-Employment volatility correlated with lower conversion due to economic uncertainty.
+3️⃣ Age-Based Conversion Trends
+U-shaped pattern observed:
 
-Higher Euribor3m interest rates negatively impacted subscriptions.
+Under 30: 15.2%
 
-Consumer confidence had minimal impact.
+Over 50: 15.1%
 
-Recommendation: Monitor macroeconomic indicators closely to adapt campaign timing and messaging to market conditions.
+30–50 years: 9.1%
 
-Call Duration Insights
+🔧 Recommendations:
 
-30+ minute calls converted at 59.4%, but occurred rarely (only 101 instances).
+Maintain strong campaigns for youth and seniors
 
-5–10 minute calls showed realistic success at 23%.
+Introduce flexible offerings for the mid-career group (30–50)
 
-Recommendation: Focus on improving 5–10 minute calls through better scripts and rep training for efficiency and impact.
+4️⃣ Day-of-Week Performance
+Best Days:
 
-Loan Status & Conversion
+Thursday: 12.1%
 
-Highest conversion (11.7%): Clients with housing loans only.
+Tuesday & Wednesday: ~11.6–11.8%
 
-Lowest conversion (10.7%): Clients with personal loans only.
+Worst Day:
 
-Recommendation: Target clients with housing loans more aggressively and deprioritize those with only personal loans, possibly due to liquidity constraints.
+Monday: 9.9%
 
-Model Performance
+🔧 Recommendations:
 
-The model showed 94% precision in filtering non-subscribers, indicating efficient reduction of wasted outreach.
+Allocate 25–30% of weekly calls to Thursdays
 
-However, it only had 37% precision in predicting actual subscribers, leading to a high false positive rate.
+Reduce Monday call volume
 
-Recommendation: Use the Random Forest model, which had slightly higher precision, and continue refining it to better identify true positives.
+5️⃣ Seasonal Trends
+High-Performance Months:
 
-Recommendations
-Focus on Retention: Build loyalty programs or personalized offers for the small but highly converting base of previous successful clients.
+March: 50.5%
 
-Double Down on High-Performers: Increase budget for Students and Retirees, and schedule major outreach on Thursdays and during March and Q4.
+September to December: 45–49%
 
-Refine Midlife Strategy: Develop custom offers for 30–50-year-olds to boost performance in this large but underperforming segment.
+Low-Performance Months:
 
-Optimize Operations: Streamline calls to the 5–10 minute range with better training and scripting.
+May to July: <10%
 
-Adjust for Seasonality: Scale back efforts in low-performing months like May and July.
+🔧 Recommendations:
 
-Improve Targeting Models: Enhance machine learning models to reduce false positives and improve subscriber prediction.
+Focus 60–70% of outreach in March and Q4
+
+Reduce campaigns during summer
+
+6️⃣ Economic Factors
+Negative Correlations:
+
+Euribor3m: -0.31
+
+Employment volatility: -0.30
+
+Minimal Impact:
+
+Consumer confidence: +0.05
+
+🔧 Recommendations:
+
+Monitor interest rates and employment data
+
+Align messaging with macroeconomic trends
+
+7️⃣ Call Duration Insights
+30+ minute calls: 59.4% conversion, but rare (101 instances)
+
+5–10 minute calls: 23% conversion, more common
+
+🔧 Recommendations:
+
+Train reps to maximize impact in 5–10 minute calls
+
+Improve scripts and efficiency
+
+8️⃣ Loan Status & Conversion
+Highest: Housing loan only – 11.7%
+
+Lowest: Personal loan only – 10.7%
+
+🔧 Recommendations:
+
+Focus on clients with housing loans
+
+Deprioritize those with personal loans due to possible liquidity issues
+
+🤖 Model Performance
+Precision for Non-Subscribers: 94% – effective at reducing wasted calls
+
+Precision for Subscribers: 37% – many false positives
+
+Best Model: Random Forest (AUC 0.790)
+
+🔧 Recommendations:
+
+Use Random Forest for campaign filtering
+
+Further refine to reduce false positives
+
+✅ Final Recommendations
+📌 Resource Allocation
+Focus on students, retirees, and past successful clients
+
+Deprioritize blue-collar/service segments and May–July efforts
+
+🗓️ Campaign Timing
+Schedule 25–30% of calls on Thursdays
+
+Concentrate annual efforts in Q4 (Sept–Dec)
+
+Experiment with motivational offers on Mondays
+
+💡 Product Design
+Develop flexible products for the 30–50 age group
+
+Link promotions to falling Euribor rates
