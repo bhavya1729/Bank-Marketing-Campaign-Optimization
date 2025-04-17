@@ -3,10 +3,10 @@
 
 The goal of this project is to To maximize marketing ROI by analyzing term deposit campaign performance and developing data-driven strategies. The analysis focuses on four key areas:
 
--Customer segmentation (identifying high- and low-converting groups)
--Temporal patterns (seasonal and day-of-week trends)
--Economic drivers (interest rates, employment volatility)
--Model performance (predictive accuracy and practical limitations)
+- Customer segmentation (identifying high- and low-converting groups)
+- Temporal patterns (seasonal and day-of-week trends)
+- Economic drivers (interest rates, employment volatility)
+- Model performance (predictive accuracy and practical limitations)
 
 _Dataset Structure_
 Dataset: https://www.kaggle.com/datasets/muhammedabdelrasoul/bank-marketing
