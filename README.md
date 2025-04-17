@@ -1,7 +1,7 @@
-# Bank-Marketing-Performance-Analysis: Data-Driven Insights to Optimize Term Deposit Conversions
+# Bank Marketing Campaign Optimization: Data-Driven Strategies to Boost Term Deposit Conversions
 **Project Goal**
 
-The goal of this project is to investigate the performance of a bank’s term deposit marketing campaigns in order to surface actionable recommendations for resource allocation and improved conversion rates. The analysis focuses on four key areas:
+The goal of this project is to To maximize marketing ROI by analyzing term deposit campaign performance and developing data-driven strategies. The analysis focuses on four key areas:
 
 -Customer segmentation (identifying high- and low-converting groups)
 -Temporal patterns (seasonal and day-of-week trends)
@@ -9,6 +9,7 @@ The goal of this project is to investigate the performance of a bank’s term de
 -Model performance (predictive accuracy and practical limitations)
 
 _Dataset Structure_
+Dataset: https://www.kaggle.com/datasets/muhammedabdelrasoul/bank-marketing
 The dataset consisted of client and campaign-level data, including:
 Client Demographics: Age, job type, marital status, education level
 Campaign Details: Contact method, call duration, previous campaign outcomes
