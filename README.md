@@ -102,7 +102,7 @@ Deprioritize blue-collar/service segments and May–July efforts
 
 - Campaign Timing
 
-schedule major outreach on Thursdays and during March and Q4 (september- december).
+Schedule major outreach on Thursdays and during March and Q4 (september- december).
 
 - Product Design
  
