@@ -106,7 +106,6 @@ schedule major outreach on Thursdays and during March and Q4 (september- decembe
 
 - Product Design
  
- 
-Develop flexible products for the 30–50 age group
+ Develop custom offers for 30–50-year-olds to boost performance in this large but underperforming segment.
 
 Link promotions to falling Euribor rates
