@@ -1,5 +1,6 @@
 # Bank-Marketing-Performance-Analysis: Data-Driven Insights to Optimize Term Deposit Conversions
 **Project Goal**
+
 The goal of this project is to investigate the performance of a bank’s term deposit marketing campaigns in order to surface actionable recommendations for resource allocation and improved conversion rates. The analysis focuses on four key areas:
 
 -Customer segmentation (identifying high- and low-converting groups)
@@ -79,6 +80,7 @@ Target clients with housing loans more aggressively and deprioritize those with 
 
 
 _Model Performance_
+
 The model showed 94% precision in filtering non-subscribers, indicating efficient reduction of wasted outreach.
 However, it only had 37% precision in predicting actual subscribers, leading to a high false positive rate.
 Recommendation: 
