@@ -10,11 +10,12 @@ The goal of this project is to To maximize marketing ROI by analyzing term depos
 
 _Dataset Structure_
 Dataset: https://www.kaggle.com/datasets/muhammedabdelrasoul/bank-marketing
+
 The dataset consisted of client and campaign-level data, including:
-Client Demographics: Age, job type, marital status, education level
-Campaign Details: Contact method, call duration, previous campaign outcomes
-Economic Indicators: Euribor 3-month interest rates, employment variation rates, consumer confidence
-Target Variable: Whether the client subscribed to a term deposit (yes/no)
+Client Demographics: Age, job type, marital status, education level ,
+Campaign Details: Contact method, call duration, previous campaign outcomes ,
+Economic Indicators: Euribor 3-month interest rates, employment variation rates, consumer confidence ,
+Target Variable: Whether the client subscribed to a term deposit (yes/no).
 
 _Insights Summary_
 
